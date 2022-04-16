@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700");
+@import url("./../icons/simple-line-icons/css/simple-line-icons.css");
+@import url("./../icons/font-awesome-old/css/font-awesome.min.css");
+@import url("./../icons/material-design-iconic-font/css/materialdesignicons.min.css");
+@import url("./../icons/themify-icons/css/themify-icons.css");
+@import url("./../icons/line-awesome/css/line-awesome.min.css");
+@import url("./../icons/avasta/css/style.css");
+@import url("./../icons/flaticon/flaticon.css");
+@import url("./../icons/flaticon-1/flaticon.css");
+@import url("./../icons/icomoon/icomoon.css");
+@import url(./../vendor/animate/animate.min.css);
+@import url(./../vendor/aos/css/aos.min.css);
+@import url(./../vendor/perfect-scrollbar/css/perfect-scrollbar.css);
+@import url(./../vendor/metismenu/css/metisMenu.min.css);
+
+
+.luckybox{
+	
+}
+
+.luckybox img{
+	width:80%;
+	animation: shake 8s;
+}
+.luckyboxItem{
+	z-index:100;
+}
+.luckyboxItem img{
+	width:70%;
+	 animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+	  filter: drop-shadow(0 0 3.75rem rgb(255, 217, 0));
+}
+
+.luckyboxOpen{
+	margin-top:-100px;
+}
+
+.luckyboxOpen img{
+	width:100%;
+
+	animation: shake 3s;
+}
+
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-5deg); }
+  20% { transform: translate(-3px, 0px) rotate(5deg); }
+  30% { transform: translate(3px, 2px) rotate(5deg); }
+  40% { transform: translate(1px, -1px) rotate(5deg); }
+  50% { transform: translate(-1px, 2px) rotate(-5deg); }
+  60% { transform: translate(-3px, 1px) rotate(5deg); }
+  70% { transform: translate(3px, 1px) rotate(-5deg); }
+  80% { transform: translate(-1px, -1px) rotate(5deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-5deg); }
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
